@@ -1,0 +1,10 @@
+{
+  "call_id": "019f0092-3f8f-7000-b577-15f745493551",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 285.902,
+  "cost": 0.4889,
+  "summary": "Linda Cho called Pivot Point Orthopedics to schedule an appointment for chest pain, but the agent struggled to verify her identity as she was a new patient. The agent then clarified that orthopedics does not handle chest pain, advising Linda to contact her primary care doctor, urgent care, or emergency services for her symptoms. Linda thanked the agent for the advice and decided to seek help elsewhere.",
+  "recording_url": "https://storage.vapi.ai/019f0092-3f8f-7000-b577-15f745493551-1782421308715-5703709d-2d06-49b9-a0c4-9a16eeef84e6-mono.wav",
+  "timestamp": "2026-06-25T21:01:52.753390+00:00",
+  "folder_name": "call_003"
+}

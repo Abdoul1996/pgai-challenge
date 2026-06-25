@@ -1,0 +1,33 @@
+AI: Hi. I'd like to make an appointment. I've been having chest pain for a few days.
+User: Prima Indore. Thank calling Pivot. Point. Orthopedics. Part of Pretty Good AI. Am I speaking with Maria?
+AI: Oh, no. My name is Linda Cho. I'm calling to make an appointment because I've been having some chest pain for the past few days. Can you help me with that?
+User: I can help you schedule an appointment. Before we continue, are you calling to book this appointment for yourself? Or for someone else?
+AI: I'm calling to book the appointment for myself.
+User: Please provide your date of birth.
+AI: Sure. It's February 12th 19 67.
+User: Just to confirm, I have your name as Linda Cho. And your date of birth as February 12th 19 67. Correct? If so, could you please spell your 1st and last name for me?
+AI: Yes. That's correct. My 1st name is Linda, l I n d a, and my last name is Cho, c h o.
+User: Could you please spell your 1st and last name for me?
+AI: Sure. My 1st name is Linda, l I n d a, and my last name is Cho, c h o.
+User: Please spell out your 1st and last name.
+AI: Of course, my 1st name is Linda, l I n d a, and my last name is Cho.
+User: Go ahead and spell your 1st and last name, please.
+AI: Sure. My 1st name is Linda, l I n d a, and my last name is Cho, c h o.
+User: Would you like to use your phone number to look up your record? If so, please provide the number you have on file.
+AI: I haven't been to
+User: File. Please tell me the phone number you have on file with us.
+AI: Actually, I haven't been to Pivot Point Orthopedics before. So I don't have a record with you.
+User: I'm not able to verify your information in our system. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about scheduling an appointment?
+AI: Yes. That would be great. You. Could you also confirm if an orthopedic doctor can help with chest pain? I'm a bit concerned about that.
+User: Orthopedic doctors focus on bones, joints, and muscle. Chest pain can sometimes be related to the heart or lungs, which is outside their specialty. If your chest pain is new, severe, or comes with symptoms like shortness of breath, sweating, or dizziness, please call 9 1 1 or go to the nearest emergency room right away. For ongoing or mild pain, you may want
+AI: Oh, I didn't realize you only
+User: If you're feeling
+AI: Thank you for letting me know. I didn't realize you only handle bones and joints. Can you recommend someone I should contact for chest pain?
+User: can't recommend a specific provider. But for chest pain, it's best contact your primary care doctor or go to an urgent care clinic. If your pain is severe, or you have symptoms like shortness of breath or dizziness, please call 9 1 1 or go to the emergency room right away.
+AI: Thank you so much for the advice. I'll make sure to follow-up with my primary care doctor or visit urgent care. I appreciate your help. Have a good day.
+User: You're welcome. Take care, and I hope you feel better soon.
+AI: Thank you. I appreciate it. Take care.
+User: You too. If you need anything else, feel free to call.
+AI: Will do. Thanks again. Goodbye.
+User: Goodbye.
+AI: Goodbye.

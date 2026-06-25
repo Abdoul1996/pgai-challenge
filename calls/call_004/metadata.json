@@ -1,0 +1,10 @@
+{
+  "call_id": "019f00aa-23e3-7000-b86a-b96380b36449",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 123.66,
+  "cost": 0.1994,
+  "summary": "Tasha Williams called Pivot Point Orthopaedics to schedule an appointment for her shoulder, which she injured playing pickleball. She provided her name and date of birth, which the AI agent confirmed. The AI agent was unable to book the appointment directly and attempted to transfer Tasha to patient support, but the call ended abruptly after connecting to a test line.",
+  "recording_url": "https://storage.vapi.ai/019f00aa-23e3-7000-b86a-b96380b36449-1782422711345-97e84e3e-79fe-4f39-b402-b6b01fc71cc0-mono.wav",
+  "timestamp": "2026-06-25T21:25:14.171714+00:00",
+  "folder_name": "call_004"
+}

@@ -1,7 +1,10 @@
 """Thin wrapper around the Vapi API: place outbound calls."""
 
+import json
 import logging
 import os
+import sys
+from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
@@ -82,20 +85,36 @@ def create_outbound_call(
 
 
 if __name__ == "__main__":
-    test_number = os.getenv("PGAI_TEST_NUMBER")
-    if not test_number:
-        raise RuntimeError("PGAI_TEST_NUMBER is not set. Add it to your .env file.")
+    # Resolve personas.json relative to the project root, not the src/ folder.
+    PROJECT_ROOT = Path(__file__).parent.parent
+    PERSONAS_PATH = PROJECT_ROOT / "scenarios" / "personas.json"
 
-    create_outbound_call(
-        to_number=test_number,
-        system_prompt=(
-            "You are Maria Rodriguez, 34 years old, calling Pivot Point Orthopedics "
-            "to schedule an appointment for knee pain that has lasted 3 weeks. "
-            "You're friendly but in a slight hurry because you're at work. "
-            "Keep your responses short and natural, like a real phone call. "
-            "If asked for your date of birth, say March 15, 1991. "
-            "Don't break character — you ARE Maria, not an AI."
-        ),
-        first_message="Hi, I'd like to schedule an appointment with Dr. Patel.",
-        assistant_name="Maria",
+    with open(PERSONAS_PATH) as f:
+        personas = json.load(f)
+
+    available_ids = [p["id"] for p in personas]
+
+    if len(sys.argv) < 2:
+        print("Usage: python src/vapi_client.py <persona_id>")
+        print(f"Available persona IDs: {', '.join(available_ids)}")
+        sys.exit(1)
+
+    persona_id = sys.argv[1]
+    persona = next((p for p in personas if p["id"] == persona_id), None)
+
+    if persona is None:
+        print(f"Error: persona '{persona_id}' not found.")
+        print(f"Available persona IDs: {', '.join(available_ids)}")
+        sys.exit(1)
+
+    result = create_outbound_call(
+        to_number=os.getenv("PGAI_TEST_NUMBER"),
+        system_prompt=persona["system_prompt"],
+        first_message=persona["first_message"],
+        assistant_name=persona["name"],
+    )
+
+    print(
+        f"Placed call for persona {persona['id']} ({persona['name']}): "
+        f"call_id={result.get('id')}"
     )
