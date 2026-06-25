@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.local
+
+# Recordings (too large for git; we'll link from README)
+calls/**/*.mp3
+calls/**/*.ogg
+calls/**/*.wav
+
+# OS / IDE
+.DS_Store
+*.log
+.vscode/
+.idea/
+EOF
