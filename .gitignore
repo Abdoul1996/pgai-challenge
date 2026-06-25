@@ -1,4 +1,3 @@
-cat > .gitignore << 'EOF'
 # Python
 venv/
 __pycache__/
@@ -9,14 +8,14 @@ __pycache__/
 .env
 .env.local
 
-# Recordings (too large for git; we'll link from README)
-calls/**/*.mp3
-calls/**/*.ogg
-calls/**/*.wav
-
 # OS / IDE
 .DS_Store
 *.log
 .vscode/
 .idea/
-EOF
+
+# Personal notes (not for repo)
+DAYLOG.md
+
+# Webhook debug payloads (not for repo)
+calls/_webhook_debug/

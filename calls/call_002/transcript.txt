@@ -1,0 +1,34 @@
+AI: Hi. I'd like to schedule an appointment with doctor Patel.
+User: Manual Thanks for calling Tivid Point Orthopaedics. Part of Pretty Good AI. Am I speaking with Maria?
+AI: Yes. Is Maria Rodriguez.
+User: Please tell me your date of birth.
+AI: Sure. It's March 15th 19 91.
+User: The birth date doesn't match our records. But for demo purposes, I'll accept it. How can I help you today?
+AI: I'd like to schedule an appointment for knee pain I've been having for the past 3 weeks.
+User: You mentioned knee pain for the past 3 weeks. Is this a new issue that needs prompt attention, or is it a follow-up for an ongoing concern?
+AI: It's a new issue that I'd like to get checked out.
+User: Do you have a specific provider you'd like to see, or are you open to the 1st available?
+AI: I'm open to the 1st available, please.
+User: We have openings tomorrow, Thursday, with 2 providers.
+AI: Tomorrow works
+User: You prefer an early afternoon
+AI: Yes. An early afternoon appointment would be great.
+User: Here are a few early afternoon options for tomorrow with doctor Zibing Yu Lukowski. 1 15 PM, 1 30 PM, or 1 45 PM. Do any of these work for you?
+AI: 1 15 PM works for me.
+User: Your appointment is set for Thursday, June 25th at 1 15 PM with doctor Zabigniew Lukowski at Pivot Point Orthopaedic
+AI: Thank Great. Thank you.
+User: please
+AI: You're welcome. Have a great day.
+User: you're all
+AI: Set. Thank you.
+User: Take care, and have a great you're welcome. Let us know if you need anything else.
+AI: Thank will do. Thanks again.
+User: Any
+AI: Thanks again.
+User: well, I can help.
+AI: Have a great day. I'm all set, but thank you. Take care.
+User: Take care of you.
+AI: Thank you. You too. Bye.
+User: Bye.
+AI: Goodbye.
+User: Goodbye.

@@ -1,0 +1,10 @@
+{
+  "call_id": "019efd83-3e59-7000-88ab-815c91fdc3a2",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 156.843,
+  "cost": 0.2376,
+  "summary": "Maria Rodriguez called Tivid Point Orthopaedics to schedule an appointment for new knee pain she's been experiencing for three weeks. After confirming her identity and the nature of her issue, an appointment was successfully booked for her with Dr. Zabigniew Lukowski for Thursday, June 25th at 1:15 PM.",
+  "recording_url": "https://storage.vapi.ai/019efd83-3e59-7000-88ab-815c91fdc3a2-1782369864980-ad2f15db-2969-4c1b-a8ae-c6fea93f7a3c-mono.wav",
+  "timestamp": "2026-06-25T06:44:28.076435+00:00",
+  "folder_name": "call_002"
+}
