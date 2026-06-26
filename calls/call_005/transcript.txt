@@ -1,0 +1,23 @@
+AI: Hi. I need to schedule a follow-up with doctor Patel for my knee.
+User: Thanks for calling PivotPoint Orthopedics. Part of Pretty Good AI. Am I speaking with Maria?
+AI: No. This is Jenny Park. I'm calling to schedule a follow-up appointment with doctor Patel.
+User: Thanks for letting me know, Jenny. Are you calling to schedule this appointment for yourself? Or for someone else?
+AI: This is for myself.
+User: Please provide your date of birth.
+AI: Sure. It's April 18, 19 87.
+User: To confirm, I have your name as Jenny Park. And your date of birth as April 18th 19 87. Is that correct?
+AI: Yes. That's correct.
+User: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?
+AI: You can use my phone number. It's 5 5 5 1 2 3
+User: Please tell me the phone number you have on file with us.
+AI: Sure. It's 5 5 5 1 2 3.
+User: Go ahead and tell me the full phone number you have on file.
+AI: Apologies. The full number is 5 5 5 1 2 3 4 5 6 7.
+User: And your phone number is 5 5 1 2 3 4 5 6 7. And your date of birth is April 18th 19 87. Is that correct?
+AI: Yes. That's correct.
+User: I'm unable to verify information right now, so I'll connect you to our patient support team for help. Please stay on the line. Connecting you to a representative. Please wait.
+AI: Thank you.
+User: Hello.
+AI: I'll hold.
+User: You've reached the Pretty Good AI test line. Goodbye.
+AI: Goodbye.

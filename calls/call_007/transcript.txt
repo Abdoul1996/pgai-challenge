@@ -1,0 +1,15 @@
+AI: Hi. Yeah. I think I need to see a doctor. Something's not right.
+User: My Thanks for calling PivotPoint Orthopedics. Part of Pretty Good Am I speaking with Maria?
+AI: Oh, uh, no. This is Marcus Williams. My wife told me to call. I've got, uh, something going on. It's hard to explain. There's like a pain,
+User: Please provide your wife's full name and date of birth.
+AI: Sure. Her name is Maria Williams, Her date of birth is March 22nd 19 60.
+User: When is Maria's date of birth?
+AI: Sorry. I might have misspoke. Maria's date of birth is March 22nd 19 60.
+User: Just to confirm, can you please spell out Maria's 1st and last name for me? And her date of birth is March 22nd 19 60. Correct?
+AI: Yes. That's correct. Her name is Maria, m a r I a. Williams. W I l l I a m s. And her date of birth is March 22nd 19 60.
+User: I can't proceed further right now. But I can make sure our clinic support team follows up with you.
+AI: Oh,
+User: Please hold while I connect you to our patient support team. Connecting you to a representative. Please wait.
+AI: Alright. I'll hold.
+User: Oh, you've reached the Pretty Good AI test line. Goodbye.
+AI: Goodbye.

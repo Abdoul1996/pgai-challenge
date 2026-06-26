@@ -1,0 +1,10 @@
+{
+  "call_id": "019f02cb-e950-7001-8350-63f1bb8acb4a",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 213.737,
+  "cost": 0.3535,
+  "summary": "Amanda Foster called PivotPoint Orthopedics seeking advice for a swollen and bruised ankle, but the AI agent could not provide medical guidance and instead offered to schedule an appointment. After providing her personal details, the AI agent stated it could not proceed further and connected her to patient support, where the call ended with a test line message.",
+  "recording_url": "https://storage.vapi.ai/019f02cb-e950-7001-8350-63f1bb8acb4a-1782458569016-a253a165-31d9-4e2b-b316-819c3275e3e7-mono.wav",
+  "timestamp": "2026-06-26T07:22:52.293201+00:00",
+  "folder_name": "call_010"
+}

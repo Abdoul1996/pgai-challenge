@@ -1,0 +1,10 @@
+{
+  "call_id": "019f02b7-3c72-7000-81cb-d53faa57deca",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 214.953,
+  "cost": 0.4107,
+  "summary": "David Mehta called to schedule an appointment for shoulder pain but initially hesitated to provide his date of birth due to privacy concerns. After eventually sharing his DOB, name, and phone number, the system repeatedly failed to verify his information. The call concluded with the system unable to proceed and advising him to visit the clinic in person for assistance.",
+  "recording_url": "https://storage.vapi.ai/019f02b7-3c72-7000-81cb-d53faa57deca-1782457215381-3410eba7-5ccb-4d27-a178-08d31b3fa65b-mono.wav",
+  "timestamp": "2026-06-26T07:00:18.720287+00:00",
+  "folder_name": "call_006"
+}

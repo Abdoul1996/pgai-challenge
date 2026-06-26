@@ -1,0 +1,10 @@
+{
+  "call_id": "019f02cf-973c-7aa8-a6b0-9edf806ebcff",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 159.222,
+  "cost": 0.2717,
+  "summary": "Tasha Williams called PivotPoint Orthopaedics to schedule an appointment for her shoulder injury. The AI agent repeatedly requested and confirmed her personal details, including name, date of birth, and spelling, leading to frustration from Tasha. Ultimately, the AI agent was unable to proceed with scheduling and offered to have a support team follow up, after which the call ended abruptly with a \"test line\" message.",
+  "recording_url": "https://storage.vapi.ai/019f02cf-973c-7aa8-a6b0-9edf806ebcff-1782458755904-b761b29b-9a9b-49ac-b4a9-2dd0b64c0e49-mono.wav",
+  "timestamp": "2026-06-26T07:25:59.632003+00:00",
+  "folder_name": "call_011"
+}

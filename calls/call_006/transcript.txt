@@ -1,0 +1,29 @@
+AI: Hi. I need to make an appointment. Shoulder pain.
+User: Thanks for calling PivotPoint Orthopedics. Part of Pretty Good AI. Am I speaking with Maria?
+AI: No. This is David Mehta. Calling to make an appointment for shoulder pain.
+User: Please provide the full name and date of birth of the patient meeting the appointment.
+AI: Why do you need that? I just want an appointment.
+User: I need the full name and date of birth to look up the patient chart and help with your request. Could you share that information?
+AI: Look. I've had my identity stolen twice. I'm not handing out my DOB to a phone system.
+User: I understand your concern. We ask
+AI: Can
+User: for your name and date of birth only to find your medical record and keep your information secure. If you prefer not to share this, I will end the identification process now.
+AI: This seems excessive. Can I speak to a real person? Or do this in person when I arrive?
+User: I'll need to get a few details to help schedule the appointment for Maria. Can you tell me your relationship to her?
+AI: I'm sorry. There seems to be a misunderstanding. I'm not Maria. I'm David Mehta, and I'm calling for myself. Can we proceed with booking the appointment without my date of birth?
+User: Thank you for clarifying. David. Please provide your date of birth
+AI: Fine. October 4th 19 78. But I want it noted that I objected.
+User: Just to be sure I have everything correct, could you please spell your 1st and last name for me? Would you like to use your phone number to help look up your record? If so, please tell me the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Just let me know.
+AI: David Mehta, That's d a v I d m e h t a. Yes. You can use my phone number. It's 5 5 5 1 2 3 4 5 6. 7.
+User: I have your phone number as 5 5 5 1 2 3 4 5 6 7. And your date of birth as October 4th 19 78. Is that correct?
+AI: Yes. That's correct. Can we proceed with booking the appointment now?
+User: Please confirm your date of birth for me.
+AI: I already provided it. It's October 4th 19 78.
+User: Something's not right with the system, and I can't verify your information. I'll connect you to our clinic support team so they can help you schedule your appointment. Please stay on the line.
+AI: Alright. Thank you.
+User: Life support is I'll let our clinic support team know you need help scheduling an appointment. They'll get back to you as soon as possible. 1 moment while I document your request.
+AI: Fine.
+User: I'm unable to I'm sorry. I couldn't help further right now. Please call again during business hours or visit the clinic in person for assistance.
+AI: Alright. I'll handle it in person. Thanks for your time. Goodbye.
+User: Take care. Goodbye.
+AI: Goodbye.

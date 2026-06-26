@@ -1,0 +1,10 @@
+{
+  "call_id": "019f02bd-87f6-7aa8-a5e4-a8c50a6636bf",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 114.696,
+  "cost": 0.1878,
+  "summary": "Marcus Williams called PivotPoint Orthopedics seeking medical attention for pain, but the AI assistant repeatedly asked for his wife Maria's name and date of birth despite him providing it multiple times. The AI then stated it couldn't proceed and attempted to transfer him, only to reveal it was an \"AI test line\" and abruptly end the call.",
+  "recording_url": "https://storage.vapi.ai/019f02bd-87f6-7aa8-a5e4-a8c50a6636bf-1782457527889-ba394d3c-50ad-4aa9-bedd-7e41981a98ff-mono.wav",
+  "timestamp": "2026-06-26T07:05:31.349511+00:00",
+  "folder_name": "call_007"
+}

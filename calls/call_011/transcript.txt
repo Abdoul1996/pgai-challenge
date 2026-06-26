@@ -1,0 +1,19 @@
+AI: Hi. I wanna schedule an appointment for my shoulder.
+User: Thanks for calling PivotPoint Orthopaedics. Part of Pretty Good AI. Am I speaking with Maria?
+AI: Nope. Tasha Williams. Hurt my shoulder playing pickleball. Need to get it checked.
+User: Please provide the full name and date of birth of the patient you are calling about.
+AI: Tasha Williams, September 22nd 19 96. Can we move this along?
+User: Just to confirm, I have your name as Tasha Williams, and your date of birth as September 22nd 19 96. Is that correct? If so, could you please spell your 1st and last name for me? Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again.
+AI: Yes. Tasha Williams, t a s h a w I l
+User: Could you please spell your 1st and last name for me? This will help make sure I have the correct information.
+AI: Tasha Williams, t a s h a w w I l l I a m s. Got it? Now can we get to scheduling?
+User: I have your name as Tasha Williams. Date of birth, September 22nd 19 96. And phone number 2 5 6 6 6 3 5 9. All of that correct?
+AI: Yep. Yes. That's right. Let's move on. My shoulder's not gonna fix itself.
+User: Please confirm your date of birth for me.
+AI: September 22nd 19 96. Already said that. Can we keep going?
+User: I can't proceed further right now. But I can make sure our clinic support team follows up with you. Would you like me to have them contact you about scheduling?
+AI: Yes, please. Have them call me ASAP. Thanks.
+User: Connecting you to a representative. Please wait.
+AI: Alright. Let's
+User: Hello. You've reached the Pretty Good AI test line. Goodbye.
+AI: Okay. Thanks. Bye.

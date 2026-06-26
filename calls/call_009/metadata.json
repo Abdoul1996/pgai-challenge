@@ -1,0 +1,10 @@
+{
+  "call_id": "019f02c8-3a6c-7aa8-a66a-4841e7a59f1f",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 175.381,
+  "cost": 0.2948,
+  "summary": "The AI called to schedule an appointment for elbow pain, but there was initial difficulty verifying their identity due to a complex name that required multiple spelling attempts. After confirming the name, date of birth, and phone number, the agent stated they couldn't proceed and connected the AI to a \"Pretty Good AI test line,\" ending the call without the appointment being scheduled.",
+  "recording_url": "https://storage.vapi.ai/019f02c8-3a6c-7aa8-a66a-4841e7a59f1f-1782458289516-3d41038a-0890-43c2-9503-e92fd744fc5c-mono.wav",
+  "timestamp": "2026-06-26T07:18:12.467112+00:00",
+  "folder_name": "call_009"
+}

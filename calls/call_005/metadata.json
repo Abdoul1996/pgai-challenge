@@ -1,0 +1,10 @@
+{
+  "call_id": "019f02a5-727a-7001-8b4e-cbcf608f0b72",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 152.953,
+  "cost": 0.2388,
+  "summary": "Jenny Park called PivotPoint Orthopedics to schedule a follow-up appointment with Dr. Patel for her knee. The AI agent attempted to verify her identity using her name, date of birth, and phone number, but encountered issues with verification. Ultimately, the AI agent was unable to verify her information and attempted to transfer her to patient support, but the call ended on a \"test line.\"",
+  "recording_url": "https://storage.vapi.ai/019f02a5-727a-7001-8b4e-cbcf608f0b72-1782455988078-ea7a1299-7579-459f-ac0b-8f170505dc4d-mono.wav",
+  "timestamp": "2026-06-26T06:39:51.389142+00:00",
+  "folder_name": "call_005"
+}

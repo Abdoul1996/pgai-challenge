@@ -194,6 +194,151 @@ either:
 The current behavior — silently abandoning the original sentence — is a 
 correctness issue for healthcare voice AI.
 
+
+## Bug #7: Agent assumes patient identity from caller-ID without explicit confirmation
+
+**Severity:** Medium (downgraded from High after analysis)  
+**Calls:** 
+- 019f006d-04b4-7555-881f-cf84315b6c78 (Linda Cho — call_003)
+- <019f00aa-23e3-7000-b86a-b96380b36449> (Tasha Williams — call_004)
+
+**What happened:**
+When the same caller-ID phone number (+1-256-486-6359) makes multiple calls 
+in sequence with different patient identities, Athena opens each call by 
+asserting the identity from a prior call:
+
+> *Athena (Linda's call):* "Am I speaking with Maria?"  
+> *Athena (Tasha's call):* "Am I speaking with Maria?"
+
+Maria was the patient identity from call_002. After that call, Athena 
+associated the caller-ID with "Maria" and used that name in subsequent 
+calls' greetings.
+
+**Test environment context (important):**
+This test was conducted using a single Vapi number across multiple persona 
+calls — an artifact of the test setup, not a real production scenario. 
+In a real deployment, each unique patient would typically call from their 
+own number.
+
+**However, the behavior IS still a bug** because:
+- Shared phone numbers are common in healthcare (family, work, shared 
+  devices, dependents calling on behalf of patients)
+- Caller-ID can be spoofed
+- An identity assertion ("Am I speaking with Maria?") is stronger than a 
+  neutral question ("Who am I speaking with?")
+- The correct behavior would be to *ask*, not *assume*
+
+**What worked:**
+When both Linda and Tasha said "No, I'm [different name]," Athena adapted 
+without issue and continued the call. So the bug is in the OPENING heuristic, 
+not in state management more broadly.
+
+**Expected behavior:**
+- If using caller-ID for lookup, frame it neutrally: "I see this number is 
+  associated with Maria Rodriguez. Are you Maria, or someone else?"
+- Better: Always ask who's calling first, without naming anyone.
+- Best: Distinguish between primary patient and authorized caller (spouse, 
+  caregiver) explicitly in the greeting.
+
+
+## Bug #8: Phone number on file presumed from caller-ID without verification
+
+**Severity:** Medium-High  
+**Call:** <call_id for Tasha> (Tasha Williams — call_004)  
+**Timestamp:** Approximately 1:30
+
+**What happened:**
+After collecting the patient's name and date of birth, Athena confidently stated:
+
+> *Athena:* "I have your phone number as 2-5-6-4-8-6-6-3-5-9. And your date of 
+> birth is September 22nd 1996. Is that correct?"
+
+The phone number Athena read back (256-486-6359) is the caller-ID of the 
+inbound call, not a verified patient phone number. Tasha Williams is a new 
+patient who had not previously interacted with the system, so no record could 
+plausibly exist "on file." Despite this, Athena framed the caller-ID as 
+existing patient data.
+
+**Why it's a problem:**
+- Anyone calling from a shared phone (family, office, friend's phone) would 
+  have Athena treat that caller-ID as "their number on file"
+- Spoofed or forwarded caller-IDs would be silently trusted as identity
+- A real patient could confirm "yes, that's correct" believing the system has 
+  validated their identity — when in fact the system is presenting the caller-
+  ID as if it's an authoritative record
+
+**Expected behavior:**
+Either:
+- Don't represent the caller-ID as a known number on file, OR
+- Explicitly verify: "The number you're calling from is 256-486-6359. Is this 
+  the best number to reach you at?" (positioning it as new info, not lookup)
+
+The current behavior conflates caller-ID with verified patient records.
+
+## Bug #9: False transfer — agent promises human escalation, hangs up instead
+
+**Severity:** High  
+**Call:** <call_id for Tasha> (Tasha Williams — call_004)  
+**Timestamp:** Approximately 2:30–3:00
+
+**What happened:**
+After being unable to schedule the appointment, Athena said:
+
+> *Athena:* "I can't schedule the appointment right now. But I'll connect you 
+> to our patient support team for help. Please stay on the line. Connecting 
+> you to a representative. Please wait."
+
+The patient agreed and waited. Athena then immediately said:
+
+> *Athena:* "Hello. You've reached the Pretty Good AI test line."
+
+This was the same voice/agent — no actual transfer occurred. After the 
+patient said "I'll hold," Athena hung up:
+
+> *Athena:* "Goodbye."  
+> *Patient:* "Wait. What? Okay. Thanks. Bye."
+
+**Why it's a problem:**
+- The system explicitly *promised* human escalation and did not deliver
+- In production, a real patient would be left without resolution after an 
+  already-frustrating failed scheduling attempt
+- Directly contradicts the "smart escalation protocols" claim on Pretty Good 
+  AI's homepage, which advertises automatic escalation to human review when 
+  the AI encounters uncertainty
+- The patient was misled into believing help was coming
+
+**Expected behavior:**
+- If a human transfer is not available, Athena should not promise one
+- Acceptable alternative: "I'm not able to schedule this appointment right 
+  now. Can someone from our team call you back at [number] within [time 
+  window]?"
+- If a transfer IS attempted but no human is available, Athena should recover 
+  gracefully — apologize, take a callback number, end politely
+
+This is one of the highest-severity bugs in the call series so far because it 
+breaks a stated product claim while also failing the patient.
+
+## Bug #10: Phone number repeat-loop + digit dropping
+
+**Severity:** Medium  
+**Call:** call_005 (Jenny Park)
+
+Athena asked for phone number 3 times, then misheard "555-123-4567" 
+as "55-123-4567" (dropped a 5). Same brittle verification flow as 
+the spelling loop in Bug #4 — pattern: Athena cannot reliably 
+capture digits or letters spoken aloud.
+
+## Bug #11: All new-patient calls dead-end at verification
+
+**Severity:** High (META-bug)  
+**Calls:** call_003 (Linda), call_004 (Tasha), call_005 (Jenny)
+
+In all 3 test calls, Athena failed to complete patient verification 
+and triggered the same fake-transfer escalation. None of the actual 
+business tests (scope, interruption, rescheduling) could be reached 
+because verification blocked the path. This is a systemic workflow 
+bug, not a single-turn issue.
+
 # Positive Finding 
 ## Verified behavior: Agent correctly handled out-of-scope medical request
 
