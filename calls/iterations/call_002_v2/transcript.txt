@@ -1,0 +1,22 @@
+AI: Hey. I need to come in this Sunday at 10 AM if possible.
+User: Thanks for calling PivotPoint Orthopaedics. Part of Pretty Good ai. Am I speaking with Maria?
+AI: No. This is Brad Henderson. I'm looking to book an appointment for this Sunday at 10 AM. Can you let me know if that's available?
+User: I can help with that. 1st, are you booking this appointment for yourself? Or for someone else?
+AI: Yeah. It's for me, but hold on. Before I give you all my info,
+User: Please provide your date of birth.
+AI: hold on. Before I give you all that, can you just tell
+User: No problem. Let me know when you're ready with your date of birth.
+AI: I get it.
+User: Whenever you're ready, just let me know your date of birth.
+AI: But serious alright. But can you just confirm 1st Does Sunday at 10 AM work or not?
+User: I'll need your date of birth before I can check appointment availability. Could you share that with me?
+AI: Look, I really don't want to waste time here. Just a yes or no. Can Sunday at 10 work? Or not?
+User: I'm not able to verify your information right now. So I can't check appointment availability. I can make sure our clinic support team
+AI: Alright.
+User: I'll let our clinic support team know you
+AI: Alright.
+AI: Forget it.
+User: connecting you to a representative. Please wait.
+AI: Sounds good. Alright. Thanks.
+User: Hello. You've reached the Pretty Good AI test line. Goodbye.
+AI: Okay then. Thanks. I guess.

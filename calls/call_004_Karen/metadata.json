@@ -1,0 +1,10 @@
+{
+  "call_id": "019f0c43-ef21-711b-9f13-6a947054f288",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 272.535,
+  "cost": 0.5833,
+  "summary": "Karen Mitchell called to request an early refill of her Tramadol prescription due to an upcoming 3-week international business trip, emphasizing the urgency as she only has two weeks of medication left. The agent, Maria, documented the request, including the preferred pharmacy and the need for expedition, and added Karen's inquiry about transferring the prescription to a pharmacy in France to the case notes for the clinic team to review and follow up on.",
+  "recording_url": "https://storage.vapi.ai/019f0c43-ef21-711b-9f13-6a947054f288-1782617489063-eed4c13b-e5de-44cf-8f4d-6cab1d713eca-mono.wav",
+  "timestamp": "2026-06-28T03:31:32.427320+00:00",
+  "folder_name": "call_012"
+}

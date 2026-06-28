@@ -9,13 +9,13 @@ User: You mentioned knee pain for the past 3 weeks. Is this a new issue that nee
 AI: It's a new issue that I'd like to get checked out.
 User: Do you have a specific provider you'd like to see, or are you open to the 1st available?
 AI: I'm open to the 1st available, please.
-User: We have openings tomorrow, Thursday, with 2 providers.
+User: We have openings tomorrow, Friday, with 2 providers.
 AI: Tomorrow works
 User: You prefer an early afternoon
 AI: Yes. An early afternoon appointment would be great.
-User: Here are a few early afternoon options for tomorrow with doctor Zibing Yu Lukowski. 1 15 PM, 1 30 PM, or 1 45 PM. Do any of these work for you?
+User: Here are a few early afternoon options for tomorrow with doctor Zigniew Yu Lukowski. 1 15 PM, 1 30 PM, or 1 45 PM. Do any of these work for you?
 AI: 1 15 PM works for me.
-User: Your appointment is set for Thursday, June 25th at 1 15 PM with doctor Zabigniew Lukowski at Pivot Point Orthopaedic
+User: Your appointment is set for Friday, June 26th at 9:30 appointment with doctor Zaidbigniew Lukowski at Pivot Point Orthopaedic
 AI: Thank Great. Thank you.
 User: please
 AI: You're welcome. Have a great day.

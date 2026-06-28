@@ -1,0 +1,10 @@
+{
+  "call_id": "019f0c7e-5fdc-7335-a79c-99477dad6e9b",
+  "ended_reason": "customer-ended-call",
+  "duration_seconds": 123.594,
+  "cost": 0.2512,
+  "summary": "Brad Henderson called PivotPoint Orthopaedics to book an appointment for Sunday at 10 AM. The representative repeatedly requested his date of birth to check availability, but Brad refused to provide it until he knew if the time slot was open. Due to the inability to verify information, the representative offered to connect him to a support team, but the call ended abruptly with Brad expressing frustration.",
+  "recording_url": "https://storage.vapi.ai/019f0c7e-5fdc-7335-a79c-99477dad6e9b-1782621170015-3cdcc311-70d8-490d-893d-30581b852d06-mono.wav",
+  "timestamp": "2026-06-28T04:32:53.246678+00:00",
+  "folder_name": "call_001"
+}

@@ -1,0 +1,22 @@
+AI: Hey. I need to come in this Sunday at 10 AM if possible.
+User: Thanks for calling PivotPoint Orthopaedics. Part of Pretty Good AI. Am I speaking with Maria?
+AI: No. This is Brad Henderson. I'm looking to book an appointment for this Sunday at 10 AM.
+User: Thanks for letting me know, Brad. I'll help you with booking an appointment. Just to confirm, are you calling to
+AI: Great.
+AI: Yep.
+User: please provide your date of birth.
+AI: Sure. It's August 8th 19 83.
+User: Just to make sure I have everything right, could you please spell your 1st and last name for me?
+AI: Of course. It's Brad, b r a d, and Henderson, h e n d e r s o n.
+User: Would you like to use your phone number to look up your record? If so, please tell me please provide the phone number you have on file with us.
+AI: Sure thing. It's 5 5 5 0 1 9 9.
+User: I have your phone number as 5 5 5 0 1 9 9 and your date of birth as August 8th 19 83. Is that correct?
+AI: Yep. That's correct.
+User: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?
+AI: Sure. That works. I just really need to see if I can get that Sunday appointment.
+User: Connecting you to a representative. Please wait.
+AI: Thanks. Alright.
+User: Hello. You've reached the Pretty Good AI test line.
+AI: Thanks.
+User: Goodbye.
+AI: Alright. Thanks. Goodbye.
