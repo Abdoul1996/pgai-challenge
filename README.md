@@ -84,7 +84,7 @@ pgai-challenge/
 │   ├── vapi_client.py      # Places a single outbound call (CLI: <persona_id>)
 │   ├── orchestrator.py     # Batches calls across personas
 │   ├── webhook_server.py   # FastAPI server; saves recording/transcript/metadata
-│   └── analyzer.py         # Call analysis helpers
+│   └── ...
 ├── scenarios/
 │   └── personas.json       # 10 patient personas
 └── calls/
