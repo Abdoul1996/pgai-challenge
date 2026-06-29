@@ -73,8 +73,8 @@ python orchestrator.py --personas p01_maria_baseline,p06_refuses_dob,p09_interru
 - **10 captured calls** — recordings, transcripts, and metadata in `calls/`
 - **Bug report** — `BUG_REPORT.md`
 - **Architecture notes** — `ARCHITECTURE.md`
-- **Loom walkthrough** — [TODO: link]
-- **Loom debug session** — [TODO: link]
+- **Loom walkthrough** — [https://www.loom.com/share/cb0623702b92449ab7472d964628a8ef]
+
 
 ## Project structure
 
